@@ -32,5 +32,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 If you want to contribute to this repo, don't forget to create a Pull Request.
 
-# Just SearGit
+# Github Search
 
