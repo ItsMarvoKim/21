@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
-    TestBed.configureTestingModule({ 
+    TestBed.configureTestingModule({
       imports: [
         RouterTestingModule
       ],
@@ -14,17 +14,20 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
+  
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   });
 
+
   it(`should have as title 'github-search'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('github-search');
   });
+
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -33,3 +36,11 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('Welcome to github-search!');
   });
 });
+function beforeEach(arg0: any) {
+  throw new Error('Function not implemented.');
+}
+
+function expect(app: any) {
+  throw new Error('Function not implemented.');
+}
+
