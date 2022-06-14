@@ -1,6 +1,6 @@
 #  Github Search
 
-This is an angular API that uses the Github API to search and retrive the information from the Github users e.g their repositories. **Desktop version only**
+This is an angular API that uses the Github API to search and retrieve the information from the Github users e.g their repositories. **Desktop version only**
 
 
 ## Technologies Used
